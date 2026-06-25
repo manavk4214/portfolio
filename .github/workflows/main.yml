@@ -20,5 +20,5 @@ jobs:
           REMOTE_HOST: ${{ secrets.SERVER_HOST }}
           REMOTE_USER: ${{ secrets.SERVER_USER }}
           SOURCE: "./"
-          TARGET: "/var/www/html"
+          TARGET: "/home/ubuntu/projects/portfolio"
           ARGS: "-rlgoDIVzz --delete --exclude='.git*' --exclude='.github*'"
